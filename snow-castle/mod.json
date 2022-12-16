@@ -4,12 +4,16 @@
 	"author": "Planet Avril, Dreamaker, avatar",
 	"version" : "1.0",
 	"contact": "http://heroescommunity.com/viewthread.php3?TID=39205",
-	"modType" : "Town modification",
+	"modType" : "Graphical town modifications",
 	"factions" :
 	[
 		"config/castle/town/faction.json",	
 		"config/castle/town/structures.json" 
 	],
 	"conflicts" :
-	["RedCastle"]
+	["RedCastle"],
+	"changelog" :
+    {
+		"1.0" : ["Initial release"]
+    }
 }
