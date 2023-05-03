@@ -4,14 +4,18 @@
 	"author": "Planet Avril, Dreamaker, avatar",
 	"version" : "1.0",
 	"contact": "http://heroescommunity.com/viewthread.php3?TID=39205",
-	"modType" : "Graphical town modifications",
+	"modType" : "Graphical",
 	"factions" :
 	[
 		"config/castle/town/faction.json",	
 		"config/castle/town/structures.json" 
 	],
 	"conflicts" :
-	["RedCastle"],
+	[
+		"red-castle",
+		"quartz",
+		"lotrd-townscreens"
+	],
 	"changelog" :
     {
 		"1.0" : ["Initial release"]
